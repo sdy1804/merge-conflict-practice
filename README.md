@@ -81,7 +81,7 @@ git push -u origin main                                                       # 
 ```
 
 ## Make second branch (feature-power)
-![Image](https://github.com/user-attachments/assets/cf68f0ce-ec8a-4071-9b55-666e981aba54)    
+![Image](https://github.com/user-attachments/assets/cdfbddb7-e39e-401f-b28b-224419bab63f)    
 And then, I made a second branch to upload addtional version of source code.    
 I added multiply function to calculator.py.    
     
@@ -145,7 +145,7 @@ if __name__ == "__main__":
 I added source code which is version of adding multiply function and committed, push it.    
 
 ## Make third branch (feature-mod)
-![Image](https://github.com/user-attachments/assets/3968c9bb-6f20-4eac-8d3d-94a42bd62bad)    
+![Image](https://github.com/user-attachments/assets/ec6ff577-4d52-4626-ae02-bae222691997)    
 I made a third branch to make conflict as well.    
 Third version of source code has modulo function.    
 The code lines that added modulo function is the same as lines that added multiply function in the second branch.    
@@ -212,10 +212,10 @@ if __name__ == "__main__":
 ## Control conflict
 I tried to merge each branches into main branch.    
 As I intended conflict is occured, I could see warning in gitbash.    
-![Image](https://github.com/user-attachments/assets/e334a523-340a-4459-87f2-5128d0215528)    
+![Image](https://github.com/user-attachments/assets/1f8c5e27-83d1-4ea0-9d80-7c7e8cc0e0f8)    
 
 And I checked source code, I could see the screen as follow.    
-![Image](https://github.com/user-attachments/assets/93f75861-1992-4bc2-aee7-19f0c682402d)    
+![Image](https://github.com/user-attachments/assets/3a3b1c8e-7124-48a5-ab87-f663788a4554)    
 
 To control conflict, I had to delete some symbols such as '====', '<<<', '>>>'.    
 And I had to choose whether delete code line or not.    
@@ -223,5 +223,5 @@ If I want to use both codes lines, just leave all codes.
 Or I can delete specific code that will not use and remain other codes to use.    
 After I modified codes, save it.    
 And just add, commit and push again to main branch.    
-![Image](https://github.com/user-attachments/assets/f52003ef-6273-48fd-a967-6d356b462def)    
+![Image](https://github.com/user-attachments/assets/51ff371a-463f-4107-b768-3670d26857e8)    
 You can check results on this repo.    
