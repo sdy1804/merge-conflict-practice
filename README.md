@@ -1,4 +1,12 @@
 # merge-conflict-practice
+## Contents
+1. [Introduction](https://github.com/sdy1804/merge-conflict-practice#introduction)
+2. [Initial source code](https://github.com/sdy1804/merge-conflict-practice#initial-source-code)
+3. [Directory](https://github.com/sdy1804/merge-conflict-practice#directory)
+4. [Make main branch](https://github.com/sdy1804/merge-conflict-practice#make-main-branch)
+5. [Make second branch (feature-power)](https://github.com/sdy1804/merge-conflict-practice#make-second-branch-feature-power)
+6. [Make third branch (feature-mod)](https://github.com/sdy1804/merge-conflict-practice#make-third-branch-feature-mod)
+7. [Control conflict](https://github.com/sdy1804/merge-conflict-practice#control-conflict)
 
 ## Introduction
 To practice how to resolve merge conflict, I made an example code that can occur conflict.    
