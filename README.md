@@ -255,3 +255,8 @@ git commit -m "resolved merge conflict"
 git push -u origin main
 ```
 You can check results on this repo.    
+
+## Reference
+https://www.freecodecamp.org/korean/news/how-to-resolve-merge-conflicts-in-git/    
+https://claude.ai/share/1325128d-4855-4a51-a101-0daf91c7b71e
+
