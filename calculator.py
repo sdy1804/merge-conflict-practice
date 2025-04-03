@@ -21,6 +21,12 @@ def power(a, b):
     """Raise a to the power of b"""
     return a ** b
 
+def modulo(a, b):
+    """Return the remainder of a divided by b"""
+    if b == 0:
+        return "You cannot divide by zero!"
+    return a % b
+
 
 # main function
 def main():
@@ -30,8 +36,9 @@ def main():
     print("3. Multiplication")
     print("4. Division")
     print("5. Power") # added in new branch
+    print("6. Modulo") # conflict occurs here!
     
-    choice = input("Choose an operation (1/2/3/4/5): ") # modified 
+    choice = input("Choose an operation (1/2/3/4/5/6): ") # It can also occur conflict! 
     
     num1 = float(input("input first number: "))
     num2 = float(input("input second number: "))
@@ -46,6 +53,8 @@ def main():
         print(f"result: {divide(num1, num2)}")
     elif choice == '5':  # added in new branch
         print(f"result: {power(num1, num2)}")
+    elif choice == '6':  # conflict occurs here!
+        print(f"result: {modulo(num1, num2)}")
     else:
         print("wrong input, please try again.")
 
