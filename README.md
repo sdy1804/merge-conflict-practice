@@ -82,6 +82,12 @@ git push -u origin main                                                       # 
 
 ## Make second branch (feature-power)
 ![Image](https://github.com/user-attachments/assets/cdfbddb7-e39e-401f-b28b-224419bab63f)    
+```
+git checkout -b feature-power         # make new branch  
+git add calculator.py                 # add modified function
+git commit -m "power function added"  # commit
+git push -u origin feature-power      # push file
+```
 And then, I made a second branch to upload addtional version of source code.    
 I added multiply function to calculator.py.    
     
@@ -146,6 +152,12 @@ I added source code which is version of adding multiply function and committed, 
 
 ## Make third branch (feature-mod)
 ![Image](https://github.com/user-attachments/assets/ec6ff577-4d52-4626-ae02-bae222691997)    
+```
+git checkout -b feature-mod            # make new branch  
+git add calculator.py                  # add modified function
+git commit -m "modulo function added"  # commit
+git push -u origin feature-mod         # push file
+```
 I made a third branch to make conflict as well.    
 Third version of source code has modulo function.    
 The code lines that added modulo function is the same as lines that added multiply function in the second branch.    
@@ -213,6 +225,11 @@ if __name__ == "__main__":
 I tried to merge each branches into main branch.    
 As I intended conflict is occured, I could see warning in gitbash.    
 ![Image](https://github.com/user-attachments/assets/1f8c5e27-83d1-4ea0-9d80-7c7e8cc0e0f8)    
+```
+git checkout main
+git merge feature-power
+git merge feature-mod
+```
 
 And I checked source code, I could see the screen as follow.    
 ![Image](https://github.com/user-attachments/assets/3a3b1c8e-7124-48a5-ab87-f663788a4554)    
@@ -224,4 +241,9 @@ Or I can delete specific code that will not use and remain other codes to use.
 After I modified codes, save it.    
 And just add, commit and push again to main branch.    
 ![Image](https://github.com/user-attachments/assets/51ff371a-463f-4107-b768-3670d26857e8)    
+```
+git add calculator.py
+git commit -m "resolved merge conflict"
+git push -u origin main
+```
 You can check results on this repo.    
